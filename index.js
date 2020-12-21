@@ -263,7 +263,7 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(startNum){
         for (let i = startNum; i > 0; i-- ) {
-          return i + " bottles of soda on the wall, " + i + " bottles of soda, take one down pass it around " + --i + "bottles of soda on the wall";
+          return i + " bottles of soda on the wall, " + i + " bottles of soda, take one down pass it around " + --i + " bottles of soda on the wall";
         }
   }
 console.log(annoyingSong(99))
